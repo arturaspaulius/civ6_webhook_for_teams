@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "small-mode-e1d6",
+	"name": "teltonika-networks-teams-civ6_webhook_worker",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-06-01",
 	"observability": {
