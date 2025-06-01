@@ -81,7 +81,7 @@ export default {
 			return new Response("value1/2/3 required", { status: 400 });
 		}
 
-		if (value1 != "Teltonika Networks 2025/2026 Civ VI Tornamentas") {
+		if (value1 != "TLT Tornamentas 25/26") {
 			return new Response("Invalid game name", { status: 400 });
 		}
 
