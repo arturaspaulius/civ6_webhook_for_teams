@@ -1,0 +1,449 @@
+    1  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    2  sudo apt install clang-format-15
+    3  clang-format
+    4  source .zshrc
+    5  clang-format
+    6  git config --global user.email "arturas.paulius@gmail.com"\ngit config --global user.name "Arturas Paulius"\ngit config --global user.editor neovim
+    7  git config --global
+    8  git config --global --get-all
+    9  git config --get-all
+   10  git config --global 
+   11  git config --get-all user
+   12  git config --get-all user*
+   13  git config --get-regexp user.*
+   14  git config -l
+   15  ls
+   16  cd projects/repos/libubox/
+   17  ls
+   18  -
+   19  ls
+   20  cargo
+   21  ls
+   22  gcc
+   23  make
+   24  mkdir wtf
+   25  cd wtff
+   26  cd wtf
+   27  ls
+   28  vim
+   29  vim test.cpp
+   30  make test
+   31  ls\\n
+   32  ls
+   33  ./test
+   34  vim test.cpp
+   35  ls
+   36  vim test.cpp
+   37  rm test
+   38  make
+   39  make test.cpp
+   40  make test.
+   41  make test
+   42  ls
+   43  ./test
+   44  vim test.cpp
+   45  make test
+   46  ./test
+   47  vim test.cpp
+   48  make test
+   49  ./test
+   50  vim test.cpp
+   51  ./test
+   52  ls
+   53  cd projects
+   54  ls
+   55  cd repos
+   56  ls
+   57  cd ..
+   58  ls
+   59  ls wtf
+   60  cd utils
+   61  ls
+   62  cd ..
+   63  mkdir learn_rust
+   64  cd learn_rust
+   65  ls
+   66  mkdir tutorial1
+   67  cd tutorial1
+   68  cargo
+   69  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   70  source ~/.bash
+   71  source ~/.zsh
+   72  source ~/.zshrc
+   73  ls
+   74  cd learn_rust
+   75  ls
+   76  cargo -v
+   77  cargo -V
+   78  rustc -V
+   79  ls
+   80  cd tutorial1
+   81  cargo new
+   82  cd ..
+   83  rm tutorial1
+   84  rm -r tutorial1
+   85  cargo new tutorial1
+   86  cd tutorial1
+   87  ls
+   88  code .
+   89  ls
+   90  cargo build
+   91  cargo run
+   92  cargo build
+   93  cargo run
+   94  cd ./.
+   95  cd ..
+   96  cargo new variables; cd variables; code .
+   97  code .
+   98  test
+   99  cargo run
+  100  rustc --explain E0384`
+  101  rustc --explain E0384
+  102  cargo run
+  103  cargo build
+  104  cargo run
+  105  cargo build
+  106  cargo run
+  107  cargo build
+  108  cargo run
+  109  cargo build
+  110  cargo run
+  111  cargo build
+  112  rustc --explain E0658
+  113  ls
+  114  cd learn_rust
+  115  ls
+  116  code .
+  117  cd variables
+  118  cargo run
+  119  git add *
+  120  git status
+  121  git add .gitignore
+  122  git commit -m "first commit\n"
+  123  git log
+  124  cargo run
+  125  cd ..
+  126  cargo new functions
+  127  cd functions
+  128  c\\n
+  129  code .
+  130  ls
+  131  cd projects
+  132  ls
+  133  cd repos
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd utils
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd wtf
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd projects/
+  146  ls
+  147  tree repos
+  148  sudo apt install tree
+  149  tree repos
+  150  cd repos
+  151  ls
+  152  git clone git@github.com:arturaspaulius/dnp3-manager.git
+  153  ls
+  154  cd dnp3-manager
+  155  git pull
+  156  ls
+  157  code .
+  158  cargo build
+  159  sudo apt install glib-2.0
+  160  sudo apt install libglib2.0-dev
+  161  cargo build
+  162  sudo apt install libpango1.0-dev
+  163  sudo apt update && sudo apt upgrade
+  164  sudo apt install libpango1.0-dev
+  165  cargo build
+  166  sudo apt install libgtk-4-dev
+  167  cargo build
+  168  ls
+  169  s
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd ..
+  176  ls
+  177  mkdir repos
+  178  cd repos
+  179  git clone git@github.com:stepfunc/dnp3.git
+  180  cd dnp3
+  181  code .
+  182  cargo build
+  183  ls -la
+  184  cargo build
+  185  cargo run
+  186  ls
+  187  git diff
+  188  cargo build
+  189  cargo run
+  190  sudo apt update\nsudo apt install libwebkit2gtk-4.1-dev \\n  build-essential \\n  curl \\n  wget \\n  file \\n  libxdo-dev \\n  libssl-dev \\n  libayatana-appindicator3-dev \\n  librsvg2-dev
+  191  ls
+  192  cd ..
+  193  ls
+  194  cd ..
+  195  cd projects/repos
+  196  ls
+  197  cargo install create-tauri-app --locked\ncargo create-tauri-app
+  198  cd dnp3-manager
+  199  ls
+  200  git status
+  201  npm install
+  202  sudo apt install npm
+  203  node
+  204  sudo apt install node
+  205  sudo apt install node-js
+  206  sudo apt install nodejs
+  207  sudo apt install nvm
+  208  # Download and install nvm:\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash\n\n# in lieu of restarting the shell\n\. "$HOME/.nvm/nvm.sh"\n\n# Download and install Node.js:\nnvm install 22\n\n# Verify the Node.js version:\nnode -v # Should print "v22.14.0".\nnvm current # Should print "v22.14.0".\n\n# Verify npm version:\nnpm -v # Should print "10.9.2".\n
+  209  node -v
+  210  npm install
+  211  \n
+  212  npm run tauri dev
+  213  git status
+  214  git diff
+  215  v .gitignore
+  216  vim .gitignore
+  217  git status
+  218  vim .gitignore
+  219  git status
+  220  git pull
+  221  cat README.md
+  222  mv README.md README.md.tmp
+  223  git pull
+  224  v README.md.tmp
+  225  ls
+  226  git status
+  227  git add *
+  228  ls
+  229  git status
+  230  git add -i
+  231  git add -a
+  232  git add -p
+  233  git add -i
+  234  git status
+  235  git commit -m "Switch to Tauri + Vue.js"
+  236  git push
+  237  ls
+  238  v .gitignore
+  239  vim .gitignore
+  240  ls
+  241  npm run tauri dev
+  242  sudo npm run tauri dev
+  243  git status
+  244  git diff
+  245  ls
+  246  npm run tauri dev
+  247  OA
+  248  npm run tauri dev
+  249  ls
+  250  npm
+  251  npm install
+  252  npm run debug
+  253  ls
+  254  cd projects
+  255  ls
+  256  cd tlt
+  257  ls
+  258  cd ..
+  259  ls
+  260  cd repos
+  261  ls
+  262  git clone git@github.com:arturaspaulius/tltpydt-web.git
+  263  git clone git@github.com:arturaspaulius/tltpydt-api.git
+  264  ls
+  265  tltpydt-api
+  266  ls
+  267  npm install
+  268  ls
+  269  cd projects/repos/tltpydt-web
+  270  LS
+  271  ls
+  272  v README.md
+  273  vim README.md
+  274  npm install
+  275  npm run debug
+  276  sudo 
+  277  sudo npm run debug
+  278  npm run start
+  279  ls
+  280  cp config.yml.template config.yml
+  281  ls
+  282  v config.yml
+  283  vim config.yml
+  284  npm run debug
+  285  code .
+  286  npm run debug
+  287  chmod 777 ./debug-sls.sh
+  288  npm run debug
+  289  vim .env
+  290  npm run debug
+  291  npm run migrate
+  292  v config.yml
+  293  npm run debug
+  294  v serverless.yml
+  295  npm run debug
+  296  npm i serverless -g
+  297  source ~/.zshrc
+  298  serverless update
+  299  serverless help
+  300  \n
+  301  serveless
+  302  source ~/.zshrc
+  303  serverless
+  304  serverless login
+  305  serverless
+  306  ls
+  307  vim serverless.yml
+  308  mv serverless.yml serverless.backup.yml
+  309  serverless
+  310  vim serverless.yml
+  311  ls
+  312  git status
+  313  ls aws-tlt-civilization-tornament
+  314  npm run debug
+  315  serverless
+  316  serverless help
+  317  serverless update
+  318  npm install serverless-offline --save-dev
+  319  npm run debug
+  320  source ~/.zshrc
+  321  serverless offline
+  322  serverless --verbose
+  323  npm run debug
+  324  npm run start
+  325  npm install -g @angular/cli
+  326  npm run start
+  327  npm run debug
+  328  npm run start
+  329  npm run debug
+  330  npm run start
+  331  npm run debug
+  332  curl http://localhost:3000/dev/status
+  333  npm run debug
+  334  curl http://localhost:3000/dev/status
+  335  curl http://localhost:3001/dev/status
+  336  curl http://localhost:3000
+  337  curl http://localhost:3000/
+  338  curl http://localhost:3000/metadata\n: 1748629392:0;curl http://localhost:3000/metadata
+  339  npm run start
+  340  git diff
+  341  git diff HEAD
+  342  git diff HEAD~1
+  343  git checkout -b dev
+  344  git push
+  345  git log
+  346  ls
+  347  bash  docker run -d --name dynamodb -p 8000:8000 amazon/dynamodb-local
+  348  docker run -d --name dynamodb -p 8000:8000 amazon/dynamodb-local
+  349  sudo apt install docker
+  350  docker run -d --name dynamodb -p 8000:8000 amazon/dynamodb-local
+  351  source ~/.zshrc
+  352  docker run -d --name dynamodb -p 8000:8000 amazon/dynamodb-local
+  353  sudo apt install docker
+  354  docker
+  355  sudo apt uninstall docker
+  356  sudo apt remove docker
+  357  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  358  bash sudo apt update && sudo apt install -y openjdk-17-jre-headless
+  359  sudo apt update && sudo apt install -y openjdk-17-jre-headless
+  360  npx sls dynamodb install
+  361  npm install serverless-dynamodb-local --save-dev
+  362  npx sls dynamodb install
+  363  npm install --save dynamoose
+  364  wget https://d1ni2b6xgvw0s0.cloudfront.net/v2.x/dynamodb_local_latest.tar.gz
+  365  ls
+  366  tar -exf dynamodb_local_latest.tar.gz
+  367  tar
+  368  tar --help
+  369  tar -xf dynamodb_local_latest.tar.gz
+  370  ls
+  371  java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+  372  npm run debug
+  373  npm run start
+  374  npm run debug
+  375  npm run start
+  376  npm run debug
+  377  npm run start
+  378  npm run debug
+  379  sls offline --stage local
+  380  npm run debug
+  381  java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+  382  npm run debug
+  383  npx sls dynamodb start &
+  384  npx sls dynamodb start
+  385  npm run debug
+  386  npm --fix
+  387  npm run debug --fix
+  388  npx eslint "src/**/*.{ts,js}" --fix
+  389  npx /home/bajor/projects/repos/tltpydt-api/lib/dynamoose/common.ts --fix
+  390  npx eslint "/home/bajor/projects/repos/tltpydt-api/lib/dynamoose/common.ts" --fix
+  391  npm run debug --fix
+  392  OA
+  393  npm run debug --fix
+  394  npm run debug
+  395  npm run dev
+  396  npm run debug
+  397  ls
+  398  url -X POST http://localhost:3000/dev/users \\n     -H 'Content-Type: application/json' \\n     -d '{"userName":"demo","password":"demo"}'
+  399  curl -X POST http://localhost:3000/dev/users \\n     -H 'Content-Type: application/json' \\n     -d '{"userName":"demo","password":"demo"}'
+  400  git ls-files
+  401  npx husky add .husky/pre-commit "npm run gen-filemap && git add tree.txt FILEMAP.md"
+  402  git 
+  403  git ls-files
+  404  git ls-files > tree.txt
+  405  ls
+  406  git status
+  407  git add tree.txt && git commit -m "add file tree"
+  408  git push
+  409  git ls-files -z
+  410  git ls-files -z > tree.json
+  411  rm tree.txt
+  412  git ls-files -z > tree.json.txt
+  413  git ls-files -help
+  414  git revert HEAD..HEAD~3
+  415  git revert HEAD...HEAD~3
+  416  ls
+  417  vim tree.txt
+  418  :
+  419  vim tree.txt
+  420  :
+  421  git push
+  422  i
+  423  curl -X POST https://prod-13.westeurope.logic.azure.com:443/workflows/481d6c1bd6104f8482504f28d0a2bf27/triggers/manual/paths/invoke\?api-version\=2016-06-01 \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'\n
+  424  https://prod-13.westeurope.logic.azure.com:443/workflows/481d6c1bd6104f8482504f28d0a2bf27/triggers/manual/paths/invoke\?api-version\=2016-06-01\&sp\=%2Ftriggers%2Fmanual%2Frun\&sv\=1.0\&sig\=P1-u_NXqOCi8CJRwsz793fCo4_XlC0pF8ckYXrK_2x0
+  425  curl -X POST https://prod-13.westeurope.logic.azure.com:443/workflows/481d6c1bd6104f8482504f28d0a2bf27/triggers/manual/paths/invoke\?api-version\=2016-06-01\&sp\=%2Ftriggers%2Fmanual%2Frun\&sv\=1.0\&sig\=P1-u_NXqOCi8CJRwsz793fCo4_XlC0pF8ckYXrK_2x0 \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'\n
+  426  curl -X POST https://prod-18.westeurope.logic.azure.com:443/workflows/d06fabd9db05481d96aca60e050c55d2/triggers/manual/paths/invoke\?api-version\=2016-06-01\&sp\=%2Ftriggers%2Fmanual%2Frun\&sv\=1.0\&sig\=2A6QY2BxkXDk4LvsXRcO34V5BNaAyNGMZ6_WoAlqYZM \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'
+  427  curl -X POST " https://prod-18.westeurope.logic.azure.com:443/workflows/d06fabd9db05481d96aca60e050c55d2/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=2A6QY2BxkXDk4LvsXRcO34V5BNaAyNGMZ6_WoAlqYZM" \\n  -H "Content-Type: application/json" \\n  -d '{\n    "type": "message",\n    "attachments": [\n      {\n        "contentType": "application/vnd.microsoft.card.adaptive",\n        "contentUrl": null,\n        "content": {\n          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",\n          "type":    "AdaptiveCard",\n          "version": "1.5",\n          "body": [\n            {\n              "type": "ColumnSet",\n              "columns": [\n                {\n                  "type": "Column",\n                  "width": "auto",\n                  "items": [\n                    {\n                      "type": "Image",\n                      "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FiQGe-VgwTgcAAAAM%2Fcivilization6-gandhi.gif",\n                      "size": "Medium",\n                      "altText": "Civ VI Gandhi"\n                    }\n                  ]\n                },\n                {\n                  "type": "Column",\n                  "width": "stretch",\n                  "items": [\n                    {\n                      "type": "TextBlock",\n                      "size": "Large",\n                      "weight": "Bolder",\n                      "wrap": true,\n                      "text": "TotalRouter'\''s Game"\n                    },\n                    {\n                      "type": "TextBlock",\n                      "wrap": true,\n                      "text": "**Current player:** KamatoTasako"\n                    },\n                    {\n                      "type": "FactSet",\n                      "facts": [\n                        { "title": "Turn", "value": "2" }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ],\n          "actions": [\n            {\n              "type": "Action.OpenUrl",\n              "title": "Open dashboard",\n              "url": "https://example.com/game/TotalRouter"\n            }\n          ]\n        }\n      }\n    ]\n  }'\n
+  428  curl -X POST "https://prod-18.westeurope.logic.azure.com:443/workflows/d06fabd9db05481d96aca60e050c55d2/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=2A6QY2BxkXDk4LvsXRcO34V5BNaAyNGMZ6_WoAlqYZM" \\n  -H "Content-Type: application/json" \\n  -d '{\n    "type": "message",\n    "attachments": [\n      {\n        "contentType": "application/vnd.microsoft.card.adaptive",\n        "contentUrl": null,\n        "content": {\n          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",\n          "type":    "AdaptiveCard",\n          "version": "1.5",\n          "body": [\n            {\n              "type": "ColumnSet",\n              "columns": [\n                {\n                  "type": "Column",\n                  "width": "auto",\n                  "items": [\n                    {\n                      "type": "Image",\n                      "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FiQGe-VgwTgcAAAAM%2Fcivilization6-gandhi.gif",\n                      "size": "Medium",\n                      "altText": "Civ VI Gandhi"\n                    }\n                  ]\n                },\n                {\n                  "type": "Column",\n                  "width": "stretch",\n                  "items": [\n                    {\n                      "type": "TextBlock",\n                      "size": "Large",\n                      "weight": "Bolder",\n                      "wrap": true,\n                      "text": "TotalRouter'\''s Game"\n                    },\n                    {\n                      "type": "TextBlock",\n                      "wrap": true,\n                      "text": "**Current player:** KamatoTasako"\n                    },\n                    {\n                      "type": "FactSet",\n                      "facts": [\n                        { "title": "Turn", "value": "2" }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ],\n          "actions": [\n            {\n              "type": "Action.OpenUrl",\n              "title": "Open dashboard",\n              "url": "https://example.com/game/TotalRouter"\n            }\n          ]\n        }\n      }\n    ]\n  }'\n
+  429  curl -X POST "https://prod-18.westeurope.logic.azure.com:443/workflows/d06fabd9db05481d96aca60e050c55d2/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=2A6QY2BxkXDk4LvsXRcO34V5BNaAyNGMZ6_WoAlqYZM" \\n     -H "Content-Type: application/json" \\n     -d '{"value1":"TotalRouter's Game","value2":"KamatoTasako","value3":"2"}'\n
+  430  curl -X POST "<the URL from the trigger>" \\n     -H "Content-Type: application/json" \\n     -d '{"value1":"TotalRouter's Game","value2":"KamatoTasako","value3":"2"}'
+  431  curl -X POST "<the URL from the trigger>" \\n     -H "Content-Type: application/json" \\n     -d '{"value1":"TotalRouter's Game","value2":"KamatoTasako","value3":"2"}'\n
+  432  curl -X POST test \\n     -H "Content-Type: application/json" \\n     -d '{"value1":"TotalRouter's Game","value2":"KamatoTasako","value3":"2"}'\n
+  433  curl -X POST https://prod-18.westeurope.logic.azure.com:443/workflows/d06fabd9db05481d96aca60e050c55d2/triggers/manual/paths/invoke\?api-version\=2016-06-01\&sp\=%2Ftriggers%2Fmanual%2Frun\&sv\=1.0\&sig\=2A6QY2BxkXDk4LvsXRcO34V5BNaAyNGMZ6_WoAlqYZM \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter's Game","value2":"KamatoTasako","value3":"2"}'
+  434  curl curl -X POST "http://localhost:8787" \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'
+  435* npm run dev
+  436  curl curl -X POST "http://localhost:8787" \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'
+  437  curl curl -X POST "https://prod-143.westeurope.logic.azure.com:443/workflows/31abf83b1d964d88b904d15f6f720930/triggers/manual/paths/invoke\?api-version\=2016-06-01\&sp\=%2Ftriggers%2Fmanual%2Frun\&sv\=1.0\&sig\=Dq2yTgSW9QBYmfBhkQch5nWcLMyeBBQCTWE2iQ6Lp3w" \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'
+  438  curl curl -X POST https://prod-143.westeurope.logic.azure.com:443/workflows/31abf83b1d964d88b904d15f6f720930/triggers/manual/paths/invoke\?api-version\=2016-06-01\&sp\=%2Ftriggers%2Fmanual%2Frun\&sv\=1.0\&sig\=Dq2yTgSW9QBYmfBhkQch5nWcLMyeBBQCTWE2iQ6Lp3w \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'
+  439  curl -X POST "https://prod-143.westeurope.logic.azure.com:443/workflows/31abf83b1d964d88b904d15f6f720930/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Dq2yTgSW9QBYmfBhkQch5nWcLMyeBBQCTWE2iQ6Lp3w" \\n  -H "Content-Type: application/json" \\n  -d '{\n    "type": "message",\n    "attachments": [\n      {\n        "contentType": "application/vnd.microsoft.card.adaptive",\n        "contentUrl": null,\n        "content": {\n          "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",\n          "type":    "AdaptiveCard",\n          "version": "1.5",\n          "body": [\n            {\n              "type": "ColumnSet",\n              "columns": [\n                {\n                  "type": "Column",\n                  "width": "auto",\n                  "items": [\n                    {\n                      "type": "Image",\n                      "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FiQGe-VgwTgcAAAAM%2Fcivilization6-gandhi.gif",\n                      "size": "Medium",\n                      "altText": "Civ VI Gandhi"\n                    }\n                  ]\n                },\n                {\n                  "type": "Column",\n                  "width": "stretch",\n                  "items": [\n                    {\n                      "type": "TextBlock",\n                      "size": "Large",\n                      "weight": "Bolder",\n                      "wrap": true,\n                      "text": "TotalRouter'\''s Game"\n                    },\n                    {\n                      "type": "TextBlock",\n                      "wrap": true,\n                      "text": "**Current player:** KamatoTasako"\n                    },\n                    {\n                      "type": "FactSet",\n                      "facts": [\n                        { "title": "Turn", "value": "2" }\n                      ]\n                    }\n                  ]\n                }\n              ]\n            }\n          ],\n          "actions": [\n            {\n              "type": "Action.OpenUrl",\n              "title": "Open dashboard",\n              "url": "https://example.com/game/TotalRouter"\n            }\n          ]\n        }\n      }\n    ]\n  }'\n
+  440* npm run dev
+  441  curl curl -X POST "http://localhost:8787" \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'
+  442* wrangler
+  443* npm run wrangler types
+  444* ./wrangler.jsonc
+  445* wrangler
+  446* npm run dev
+  447  curl curl -X POST "http://localhost:8787" \\n  -H "Content-Type: application/json" \\n  -d '{"value1":"TotalRouter'\''s Game","value2":"KamatoTasako","value3":"2"}'
+  448  curl -X POST "https://prod-143.westeurope.logic.azure.com:443/workflows/31abf83b1d964d88b904d15f6f720930/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Dq2yTgSW9QBYmfBhkQch5nWcLMyeBBQCTWE2iQ6Lp3w" \\n  -H "Content-Type: application/json" \\n  -d '{\n  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",\n  "type": "AdaptiveCard",\n  "version": "1.5",\n  "body": [\n    {\n      "type": "ColumnSet",\n      "columns": [\n        {\n          "type": "Column",\n          "width": "auto",\n          "items": [\n            {\n              "type": "Image",\n              "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FiQGe-VgwTgcAAAAM%2Fcivilization6-gandhi.gif&f=1&nofb=1&ipt=f31868356d3fa4fe0de55db38cda47a9bb173b4bcf5a7ade325fec7a9e60ef4a",\n              "size": "Large"\n            }\n          ],\n          "spacing": "None",\n          "horizontalAlignment": "Left"\n        },\n        {\n          "type": "Column",\n          "width": "stretch",\n          "items": [\n            {\n              "type": "TextBlock",\n              "size": "Large",\n              "weight": "Bolder",\n              "text": "TotalRouter's Game"\n            },\n            {\n              "type": "TextBlock",\n              "text": "**Current player:** KamatoTasako"\n            },\n            {\n              "type": "FactSet",\n              "facts": [\n                {\n                  "title": "Turn",\n                  "value": "2"\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}'
+  449  curl -X POST "https://prod-143.westeurope.logic.azure.com:443/workflows/31abf83b1d964d88b904d15f6f720930/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Dq2yTgSW9QBYmfBhkQch5nWcLMyeBBQCTWE2iQ6Lp3w" \\n  -H "Content-Type: application/json" \\n  -d '{\n  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",\n  "type": "AdaptiveCard",\n  "version": "1.5",\n  "body": [\n    {\n      "type": "ColumnSet",\n      "columns": [\n        {\n          "type": "Column",\n          "width": "auto",\n          "items": [\n            {\n              "type": "Image",\n              "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FiQGe-VgwTgcAAAAM%2Fcivilization6-gandhi.gif&f=1&nofb=1&ipt=f31868356d3fa4fe0de55db38cda47a9bb173b4bcf5a7ade325fec7a9e60ef4a",\n              "size": "Large"\n            }\n          ],\n          "spacing": "None",\n          "horizontalAlignment": "Left"\n        },\n        {\n          "type": "Column",\n          "width": "stretch",\n          "items": [\n            {\n              "type": "TextBlock",\n              "size": "Large",\n              "weight": "Bolder",\n              "text": "TotalRouters Game"\n            },\n            {\n              "type": "TextBlock",\n              "text": "**Current player:** KamatoTasako"\n            },\n            {\n              "type": "FactSet",\n              "facts": [\n                {\n                  "title": "Turn",\n                  "value": "2"\n                }\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}'
